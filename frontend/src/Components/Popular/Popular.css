@@ -1,0 +1,45 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+/* App.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .popular {
+      height: auto; /* Remove fixed height to allow content to expand */
+      padding: 20px; /* Add padding for better spacing on smaller screens */
+    }
+    .popular h1 {
+      font-size: 36px; /* Decrease font size for smaller screens */
+    }
+    .popular hr {
+      width: 150px; /* Decrease hr width for smaller screens */
+    }
+    .popular-item {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center align items on smaller screens */
+      margin-top: 30px; /* Adjust top margin for popular items */
+      gap: 20px; /* Adjust gap between popular items */
+    }
+  }
+  

@@ -1,0 +1,47 @@
+.item{
+    width: 350px;
+}
+.item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+/* App.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .item {
+      width: 100%; /* Adjust width to fill the container on smaller screens */
+      max-width: 350px; /* Set a maximum width to prevent items from stretching too much */
+    }
+    .item p {
+      margin: 4px 0; /* Decrease margin for paragraph elements for smaller screens */
+    }
+    .item-prices {
+      flex-direction: column; /* Stack prices vertically on smaller screens */
+      gap: 10px; /* Adjust gap between prices for smaller screens */
+    }
+    .item-price-new,
+    .item-price-old {
+      font-size: 16px; /* Decrease font size for prices on smaller screens */
+    }
+  }
+  

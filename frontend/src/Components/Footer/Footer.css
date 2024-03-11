@@ -1,0 +1,92 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo p{
+    color: #383838;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.footer-links {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.footer-links li{
+    cursor: pointer;
+
+    
+}
+.footer-social-icon{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+}
+
+
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size:20px;
+    
+}
+
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+}
+
+/* App.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer {
+      padding: 20px; /* Adjust padding for smaller screens */
+      gap: 20px; /* Adjust gap between elements for smaller screens */
+      text-align: center; /* Center-align content on smaller screens */
+    }
+    .footer-links {
+      flex-direction: column; /* Stack links vertically on smaller screens */
+      gap: 10px; /* Adjust gap between links for smaller screens */
+    }
+    .footer-links li {
+      margin: 0; /* Reset margin for list items on smaller screens */
+    }
+    .footer-social-icon {
+      margin-top: 20px; /* Add margin between links and social icons for smaller screens */
+    }
+    .footer-copyright hr {
+      width: 50%; /* Decrease hr width for smaller screens */
+    }
+  }
+  

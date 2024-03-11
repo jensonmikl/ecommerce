@@ -1,0 +1,104 @@
+.loginsignup{
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding-top: 20px;
+
+}
+.loginsignup-container{
+    width: 580px;
+    height: 560px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    margin-top: 15px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+    text-align: center;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginsignup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* App.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .loginsignup {
+      height: auto; /* Remove fixed height to allow content to expand */
+      padding-top: 10px; /* Decrease top padding for smaller screens */
+    }
+    .loginsignup-container {
+      width: 90%; /* Adjust width for smaller screens */
+      max-width: 400px; /* Set maximum width for smaller screens */
+      height: auto; /* Remove fixed height to allow content to expand */
+      margin: auto; 
+      padding: 20px; /* Adjust padding for smaller screens */
+      margin-top: 10px; 
+    }
+    .loginsignup-container h1 {
+      margin: 15px 0; 
+    }
+    .loginsignup-fields {
+      gap: 20px; /* Adjust gap between fields for smaller screens */
+      margin-top: 20px; /* Decrease top margin for fields for smaller screens */
+    }
+    .loginsignup-fields input {
+      height: 50px; /* Decrease height for input fields for smaller screens */
+      font-size: 16px; /* Decrease font size for input fields for smaller screens */
+    }
+    .loginsignup-container button {
+      width: 100%; /* Set button width to fill container width for smaller screens */
+      height: 50px; /* Decrease height for button for smaller screens */
+      font-size: 20px; /* Decrease font size for button for smaller screens */
+      margin-top: 20px; /* Decrease top margin for button for smaller screens */
+    }
+    .loginsignup-login,
+    .loginsignup-agree {
+      font-size: 16px; /* Decrease font size for text content for smaller screens */
+    }
+  }
+  

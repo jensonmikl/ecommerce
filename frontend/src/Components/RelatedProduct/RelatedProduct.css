@@ -1,0 +1,47 @@
+.related-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.related-products h2{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.related-products hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.related-products-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+
+}
+
+/* App.css */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .related-products {
+      height: auto; /* Remove fixed height to allow content to expand */
+      margin-bottom: 50px; /* Decrease bottom margin for smaller screens */
+    }
+    .related-products h2 {
+      font-size: 36px; /* Decrease font size for heading for smaller screens */
+    }
+    .related-products hr {
+      width: 150px; /* Decrease hr width for smaller screens */
+    }
+    .related-products-item {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center align items on smaller screens */
+      margin-top: 30px; /* Adjust top margin for items for smaller screens */
+      gap: 20px; /* Adjust gap between items for smaller screens */
+    }
+  }
+  
